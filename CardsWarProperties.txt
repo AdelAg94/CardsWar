@@ -4,7 +4,6 @@ Class are:
 3. Player
 
 _____________________________________________________
-
 Deck==>
 
 attribute:
@@ -13,3 +12,23 @@ attribute:
 methods:
 * shuffle ==> make random ordering of all cards each time you make an instance
 * split_in_hlaf ==> split all cards into 26 for each player where they will be in tuple
+_____________________________________________________
+Hand==>
+attributes:
+* cards
+
+methods:
+* __str__ ==> print how many cards that are in hand of the player
+* add ==> add card or cards to all cards you have
+* removeCard ==> remove the very last card on the list
+
+_____________________________________________________
+Player==>
+attributes:
+* hand
+* name
+
+methods:
+* play_card ==> print on terminal that player has placed card number and will return drawn card
+* remove_war_cards ==> affect when war happens and will remove 3 cards and return them as war cards
+* still_has_cards ==>  return true if the player still has cards in pocket

@@ -5,6 +5,11 @@ Class are:
 
 _____________________________________________________
 
-Deck+==>
+Deck==>
+
 attribute:
 * allcards
+
+methods:
+* shuffle ==> make random ordering of all cards each time you make an instance
+* split_in_hlaf ==> split all cards into 26 for each player where they will be in tuple

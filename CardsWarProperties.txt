@@ -1,0 +1,10 @@
+Class are:
+1. Deck
+2. Hand
+3. Player
+
+_____________________________________________________
+
+Deck+==>
+attribute:
+* allcards
